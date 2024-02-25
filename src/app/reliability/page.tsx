@@ -1,3 +1,13 @@
+import Hero from "@/components/hero";
+import Link from "next/link";
+import reliabilityImg from '../../../public/reliability.jpg';
+
 export default function ReliabilityPage() {
-    return <div>Reliability Page</div>
+  return (
+    <Hero
+      imgData={reliabilityImg}
+      imgAlt='welding'
+      title='Super high reliability hosting'
+    />
+  )
 }
